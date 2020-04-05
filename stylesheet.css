@@ -1,0 +1,264 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "arial";
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-bottom: 2px solid #dee7ec;
+  background-color: #dee7ec;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  max-width: 124px;
+  margin-top: 20px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgba(0, 0, 0, 0.6);
+	display: inline-block;
+  float: left
+  transition: all 0.5s;
+  font-weight: bold;
+}
+
+.header-right a:hover {
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+.header-list li {
+  float: left;
+  padding: 27px 20px 27px 20px;
+}
+
+.top-wrapper {
+  padding: 180px 0 250px 0;
+  text align: center;
+}
+
+.top-wrapper img {
+  float: left;
+}
+
+.top-title {
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+	padding: 0 40px;
+	margin: 0 auto;
+
+}
+
+.blue-dot {
+  width: 17%;
+  height: 17%;
+}
+
+.yellow-dot {
+  width: 13%;
+  height: 13%;
+  margin-top: 80px;
+}
+
+.top-wrapper h1{
+  font-size: 45px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.top-wrapper h2{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.top-wrapper span{
+  color: yellow;
+}
+
+.clear{
+  clear:left;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.section-title {
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.heading h3 {
+  font-weight: bold;
+}
+
+.lesson {
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+}
+
+.lesson-icon {
+  float: left;
+  text-align: center;
+}
+
+.lesson-icon img {
+  width: 75%;
+  height: 75%;
+}
+
+.lesson-icon p{
+  margin-top: 1px;
+  margin-bottom: 5px;
+  width:100%;
+  color: #4d4d4d;
+  text-align: center;
+  font-weight: bold;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 2px;
+  margin-right: 0px;
+  margin-left: 0px;
+  font-size: 15px;
+  color: #4d4d4d;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 60px
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+.contact-wrapper {
+  padding: 0 40px;
+}
+
+.contact-form {
+	color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+;
+}
+
+.contact-form p {
+	font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.email,
+.message {
+	border: 1px solid #dee7ec;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 40%;
+}
+
+.email:hover,
+.message:hover {
+	border: 1px solid #babcbe;
+}
+
+.contact-submit {
+	border-radius: 50px;
+	border-style: solid;
+	padding: 10px 20px;
+	width: 30%;
+	display: inline-block;
+	opacity: 0.8;
+	background-color: #d1d3d4;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: normal;
+	transition: all 0.5s;
+}
+
+.contact-submit:hover {
+	background-color: #b0b3b6;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: rgba(243, 165, 20, 0.89);
+  color: #fff;
+  height: 135px;
+  width: 100%;
+  padding: 20px 0;
+
+  font-weight: bold;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.footer-list {
+  float:  right;
+}
+
+.footer-list li{
+  padding-bottom: 15px;
+}
+
+.footer-list li a{
+  color: white;
+}
+
+.footer-list li a:hover {
+  color: rgba(65, 64, 64, 0.842);
+}
